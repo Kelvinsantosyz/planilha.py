@@ -49,7 +49,7 @@ def armazenar_dados(usuarios):
         opcao_menu = input("[i]nserir  [s]air: [l]istar: ")
         
         if opcao_menu == "s":
-            workbook.save(filename='teste.xlsx')
+            workbook.save(filename='dados cadastrado.xlsx')
             print("Você saiu do programa")
             return "programa encerrado"
         

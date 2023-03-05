@@ -79,7 +79,10 @@ def armazenar_dados(usuarios):
                         workbook.save(filename='dados cadastrado.xlsx')
                 else:
                     print("Dados inválidos:", erro)
-                
+            
+            except IndexError:
+                print("Digite apenas valores valido")
+            
             except Exception:
                 print("Ocorreu erro inesperado, tente novamente")
         

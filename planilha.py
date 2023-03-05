@@ -50,7 +50,8 @@ def armazenar_dados(usuarios):
         
         if opcao_menu == "s":
             workbook.save(filename='teste.xlsx')
-            return "Você saiu do programa"
+            print("Você saiu do programa")
+            return "programa encerrado"
         
         if opcao_menu =='i':
             
